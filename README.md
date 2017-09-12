@@ -87,7 +87,7 @@ Write a processing sketch to draw the following shapes:
 
 I prefer to draw the shapes on paper first before I try and work out the coordinates. Try experimenting with different colours!
 
-### Downloading a Processing game
+### Part 2 - Downloading a Processing game
 
 - Download the Processing sourcecode for NILL. Click the [clone or download link here](https://github.com/skooter500/NILL)
 - This will download a zip file of the code for the NILL game
