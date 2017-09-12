@@ -30,9 +30,7 @@ Resources
 - Assignment 2 - 30%
 - End of Year lab test - 30%
 
-
 Some assignments from previous years:
-
 
 [![YouTube](http://img.youtube.com/vi/TY6Wv9lr72A/0.jpg)](https://www.youtube.com/watch?v=TY6Wv9lr72A)
 
@@ -48,19 +46,24 @@ Some assignments from previous years:
 - [Introduction slides](https://1drv.ms/p/s!Ak7y2552PWCrkMw2-mb76OvGqWk6NQ)
 - [The contract for this course](https://1drv.ms/w/s!Ak7y2552PWCrjPYXt8HlWl1T1cg5Og)
 
-<!---
-##Lab
+## Lab
+
 ### Learning Outcomes
-- Sign up for the class Slack
 - Enroll on Webcourses
 - Become familiar with the syntax of Processing
 - Become familiar with writing and running sketches in Processing
+- Clone a git repository!
+- Install Processing libraries
 
-Firstly, go to [https://gp-2016-2017.slack.com](https://gp-2016-2017.slack.com) and sign up for the slack with your DIT email address. Make sure you *click create an account* rather than try and login with your DIT credentials. When you are signed up, send a little greeting to everyone on the #general channel. If you have a smartphone, you might want to install the Slack app. It's free. Also if you install the app, you will probably want to disable certain notifications, otherwise your phone will be buzzing every time someone posts anything. [Here is an article that explains how to do this](https://slack.zendesk.com/hc/en-us/articles/201649323-Channel-and-group-notification-preferences).
+### Part 1 - Drawing
+- Log onto Webcourses and enroll on the module GAME1003.
+- Check out [the Processing reference](https://processing.org/reference/)
+- Check out [Daniel Shiffman's awesome YouTube channel](https://www.youtube.com/user/shiffman)
+- Check out [these Sci-Fi user interfaces made by last years OOP students](https://www.youtube.com/playlist?list=PL1n0B6z4e_E5RZYrubD2pcxq0qzGy-3vr)
+- Check out [these music visualisers made in Processing by last years game programming students](https://www.youtube.com/watch?v=cW8s5i9dmqA&list=PL1n0B6z4e_E6jErrS0ScSCaVrN7KV729x)
+- If you are curious, check out [some of my creature videos](https://www.youtube.com/watch?v=cW8s5i9dmqA&list=PL1n0B6z4e_E6jErrS0ScSCaVrN7KV729x)
 
-Log onto Webcourses and enroll on the module GAME1003. To do this, search the module catalog for GAME and you will see it's the second option.
-
-Look up the following methods in the [Processing language reference](http://processing.org/reference/ ) to make sure you are clear about the syntax and parameters:
+- Look up the following methods in the [Processing language reference](http://processing.org/reference/ ) to make sure you are clear about the syntax and parameters:
 
 * noStroke
 * noFill
@@ -74,7 +77,7 @@ Look up the following methods in the [Processing language reference](http://proc
 * arc
 * triangle
 
-Write processing sketches to draw the following shapes:
+Write a processing sketch to draw the following shapes:
 
 ![Sketch](images/p1.png)
 
@@ -82,7 +85,14 @@ Write processing sketches to draw the following shapes:
 
 ![Sketch](images/p1.2.png)
 
-I find it much easier to work out the coordinates by drawing out the shapes on paper first! Try experimenting with different colours
+I prefer to draw the shapes on paper first before I try and work out the coordinates. Try experimenting with different colours!
 
-[Log onto webcourses](http://dit.ie/webcourses) and do this weeks MCQ.
- -->
+### Downloading a Processing game
+
+- Download the Processing sourcecode for NILL. Click the [clone or download link here](https://github.com/skooter500/NILL)
+- This will download a zip file of the code for the NILL game
+- Unzip the files somewhere 
+- Find the NILL folder and double click on the NILL.pde file. It should open in Processing
+- You need to install the Minim library and the Game control libraries to make NILL work. Go to Sketch | Import Library | Add library to do this
+- See if you can collect all the pods
+- Have a look through the source code for NILL
