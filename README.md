@@ -40,7 +40,50 @@ Some assignments from previous years:
 
 [![YouTube](http://img.youtube.com/vi/4g3qwul2o44/0.jpg)](https://www.youtube.com/watch?v=4g3qwul2o44)
 
-# Week 1
+# Week 2 - Variables
+- [Variables example](processing/variables)
+- [The amanita sketch (the mushroom that moves with the mouse)](processing/amanita)
+
+## Videos
+[![YouTube](http://img.youtube.com/vi/B-ycSR3ntik/0.jpg)](https://www.youtube.com/watch?v=B-ycSR3ntik)
+
+[![YouTube](http://img.youtube.com/vi/rZ36BzXFT6Q/0.jpg)](https://www.youtube.com/watch?v=rZ36BzXFT6Q)
+
+[![YouTube](http://img.youtube.com/vi/wsI6N9hfW7E/0.jpg)](https://www.youtube.com/watch?v=wsI6N9hfW7E)
+
+[![YouTube](http://img.youtube.com/vi/mVq7Ms01RjA/0.jpg)](https://www.youtube.com/watch?v=mVq7Ms01RjA)
+
+## Lab
+
+### Learning Outcomes
+- Learn how to analyse a problem and figure out a solution
+- Practice drawing in processing
+- Practice using variables
+- Practice using operations
+
+Here is a video of a sketch you can make today:
+
+[![YouTube](http://img.youtube.com/vi/uvPVGiU-bn4/0.jpg)](https://www.youtube.com/watch?v=uvPVGiU-bn4)
+
+What is happening:
+
+- The ground takes up half the window size
+- The spaceship is 100 pixels wide and is *centered* around the mouse position.
+- The person starts at the right side of the screen and moved from right to left
+
+Use variables wherever practical in your sketch and calculate positions and sizes relative to these variables.
+
+Bonus!
+
+There are few things you can try (but you will probably have to read ahead and figure out how the if statement works)
+
+- Come up with a more beautiful looking spaceship and person
+- Change the colours of everything
+- Make a car that drives from left to right
+- When the person reaches the left side of the screen, he should switch direction
+- Make the lights on the spaceship flash different colours
+
+# Week 1 - Introduction
 
 ## Lecture
 - [Introduction slides](https://1drv.ms/p/s!Ak7y2552PWCrkMw2-mb76OvGqWk6NQ)
