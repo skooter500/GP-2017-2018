@@ -48,7 +48,7 @@ Some assignments from previous years:
 [![YouTube](http://img.youtube.com/vi/YIKRXl3wH8Y/0.jpg)](https://www.youtube.com/watch?v=YIKRXl3wH8Y)
 
 ## Lab
-- [Download and unzip the starter project for today's lab](downloads/rick_n_morty_starter.zip) 
+- [Download and unzip the starter project for today's lab](https://github.com/skooter500/GP-2017-2018/blob/master/downloads/rick_n_morty_starter.zip?raw=true) 
 - Open the sketch and you will see that it displays a picture from Rick and Morty
 - The aim of the lab today is to modify the sketch so that it displays a black button in the center of the screen
 - When the button is clicked, it should turn red and play the sound file. Here is what the finsihed sketch should look like:
