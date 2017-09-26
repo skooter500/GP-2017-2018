@@ -48,6 +48,9 @@ Some assignments from previous years:
 [![YouTube](http://img.youtube.com/vi/YIKRXl3wH8Y/0.jpg)](https://www.youtube.com/watch?v=YIKRXl3wH8Y)
 
 ## Lab
+
+Part 1
+
 - [Download and unzip the starter project for today's lab](https://github.com/skooter500/GP-2017-2018/blob/master/downloads/rick_n_morty_starter.zip?raw=true) 
 - Open the sketch and you will see that it displays a picture from Rick and Morty
 - The aim of the lab today is to modify the sketch so that it displays a button in the center of the screen
@@ -56,6 +59,13 @@ Some assignments from previous years:
 [![YouTube](http://img.youtube.com/vi/BR1p2Dl6ELE/0.jpg)](https://www.youtube.com/watch?v=BR1p2Dl6ELE)
 
 - To do this you will need to declare some new varialbes and use the if statement
+
+Part 2
+
+Try and make this sketch that draws a face that starts in the center of the screen and moves to the edge of the screen and then follows around the outside of the screen
+
+[![YouTube](http://img.youtube.com/vi/lA-3AROmMiE/0.jpg)](https://www.youtube.com/watch?v=lA-3AROmMiE)
+
 
 # Week 2 - Variables
 - [Variables example](processing/variables)
