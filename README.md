@@ -1,4 +1,4 @@
-# DT508 Game Programming 2016-2017
+# DT508 Game Programming 2017-2018
 
 Resources
 ---------
