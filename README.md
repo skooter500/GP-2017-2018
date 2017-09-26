@@ -37,7 +37,7 @@ Some assignments from previous years:
 [![YouTube](http://img.youtube.com/vi/cW8s5i9dmqA/0.jpg)](https://www.youtube.com/watch?v=cW8s5i9dmqA)
 
 # Week 3 - Selection
-- [The quadrants sketch](procesisng/quadrants)
+- [The quadrants sketch](processing/quadrants)
 - [Mouse inside a circle sketch](processing/circleDistance)
 
 ## Videos
