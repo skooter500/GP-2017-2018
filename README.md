@@ -36,6 +36,27 @@ Some assignments from previous years:
 
 [![YouTube](http://img.youtube.com/vi/cW8s5i9dmqA/0.jpg)](https://www.youtube.com/watch?v=cW8s5i9dmqA)
 
+# Week 3 - Selection
+- [The quadrants sketch](procesisng/quadrents)
+- [Mouse inside a circle sketch](processing/circleDistance)
+
+## Videos
+[![YouTube](http://img.youtube.com/vi/mVq7Ms01RjA/0.jpg)](https://www.youtube.com/watch?v=mVq7Ms01RjA)
+
+[![YouTube](http://img.youtube.com/vi/wsI6N9hfW7E/0.jpg)](https://www.youtube.com/watch?v=wsI6N9hfW7E)
+
+[![YouTube](http://img.youtube.com/vi/YIKRXl3wH8Y/0.jpg)](https://www.youtube.com/watch?v=YIKRXl3wH8Y)
+
+## Lab
+- [Download and unzip the starter project for today's lab](downloads/rick_n_morty_starter.zip) 
+- Open the sketch and you will see that it displays a picture from Rick and Morty
+- The aim of the lab today is to modify the sketch so that it displays a black button in the center of the screen
+- When the button is clicked, it should turn red and play the sound file. Here is what the finsihed sketch should look like:
+
+[![YouTube](http://img.youtube.com/vi/BR1p2Dl6ELE/0.jpg)](https://www.youtube.com/watch?v=BR1p2Dl6ELE)
+
+- To do this you will need to declare some new varialbes and use the if statement
+
 # Week 2 - Variables
 - [Variables example](processing/variables)
 - [The amanita sketch (the mushroom that moves with the mouse)](processing/amanita)
