@@ -36,6 +36,50 @@ Some assignments from previous years:
 
 [![YouTube](http://img.youtube.com/vi/cW8s5i9dmqA/0.jpg)](https://www.youtube.com/watch?v=cW8s5i9dmqA)
 
+# Week 4 - Loops
+![Sketch](images/p6.png)
+![Sketch](images/p23.png)
+
+[![YouTube](http://img.youtube.com/vi/h4ApLHe8tbk/0.jpg)](https://www.youtube.com/watch?v=h4ApLHe8tbk)
+[![YouTube](http://img.youtube.com/vi/RtAPBvz6k0Y/0.jpg)](https://www.youtube.com/watch?v=RtAPBvz6k0Y)
+
+## Lab
+### Learning outcomes
+- Practice generating lots of different shapes with loops in processing
+- Be creative and make something beautiful in code
+
+Try and write some processing code to draw the following shapes. Use variables and loops in your solutions!
+
+Its best to spend some time thinking about the variables and how they are changing before writing code:
+
+These require ONE loop:
+
+![Sketch](images/p21.png)
+
+This shape draws lines from the sides that all meet in the middle. This can be done using one loop, but is better with two:
+
+![Sketch](images/p19.png)
+
+This sketch always draws 10 equally sized circles across the screen. This should work no matter what you set the screen size to. You should also declare a variable to hold the number of circles to draw so that if you change this number, the sketch should still work:
+
+![Sketch](images/p18.png)
+
+This sketch places circles around the outside of a bigger circle to make a flower pattern. Once you figure this out, you can modify it to do something cool with colours:
+
+![Sketch](images/p20.png)
+
+This sketch prints the numbers of the clock around in a circle:
+
+![Sketch](images/p22.png)
+
+Finally! This sketch requires you to put one loop inside another and also use a boolean variable, though there are other ways to do this:
+
+![Sketch](images/p23.png)
+
+This is what it looks like when all the above code is in one sketch:
+
+![Sketch](images/p24.png)
+
 # Week 3 - Selection
 - [The quadrants sketch](processing/quadrants)
 - [Mouse inside a circle sketch](processing/circleDistance)
