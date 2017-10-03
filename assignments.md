@@ -1,18 +1,5 @@
 # DT508 Game Programming Assignments 2016-2017
 
-# Last years marks
-
-Tests - 50%
-- Lab Test 1 25%
-- Lab Test 2 25%
-
-Assignments - 50%
-- Assignment 1 - (Love) - 15%
-- Assignment 2 - (Game you make over Christmas) - 15%
-- Assignment 3 - (Semester 2 assignment) - 20%
-
-
-
 # Assignment 1
 
 Create a multimedia project all about love in Processing. It can be about something that you love or it can be for someone that you love:
