@@ -21,14 +21,15 @@ Resources
 
 * Email: bryan.duggan@dit.ie
 * Twitter: [@skooter500](http://twitter.com/skooter500)
-* Slack: [gp-2016-2017.slack.com](https://gp-2016-2017.slack.com)
 
 ## Assignments
 
 - 22 November 2017 Lab Test 20%
-- 12 December 2017 Assignment 1 submission 20%
+- 4 December 2017 Assignment 1 submission 20%
 - Assignment 2 - 30%
 - End of Year lab test - 30%
+
+[Assignment rubric & description](assignments.md)
 
 Some assignments from previous years:
 
