@@ -37,8 +37,40 @@ Some assignments from previous years:
 [![YouTube](http://img.youtube.com/vi/cW8s5i9dmqA/0.jpg)](https://www.youtube.com/watch?v=cW8s5i9dmqA)
 
 # Week 4 - Loops
-![Sketch](images/p6.png)
-![Sketch](images/p23.png)
+![Sketch](images/p26.png)
+
+```Java
+void setup()
+{
+  size(500, 500);
+  cx = width / 2;
+  cy = height / 2;
+}
+
+int cx, cy;
+
+void draw()
+{
+  background(0);
+  stroke(255);
+  for(int x = 0 ; x <= width ; x += 20)
+  {
+    line(x, height, cx, cy);
+  }
+  
+  int y = cy;
+  int gap = 1;
+  while(y <= height)
+  {
+    line(0, y, width, y);
+    y += gap;
+    gap += 2;
+  }
+}
+```
+
+- [Lots of examples of loops](processing/lotsaloops)
+- [Dividing a circle into equal segments sketch](processing/circles1)
 
 [![YouTube](http://img.youtube.com/vi/h4ApLHe8tbk/0.jpg)](https://www.youtube.com/watch?v=h4ApLHe8tbk)
 [![YouTube](http://img.youtube.com/vi/RtAPBvz6k0Y/0.jpg)](https://www.youtube.com/watch?v=RtAPBvz6k0Y)
