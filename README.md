@@ -53,6 +53,8 @@ The string makes an angle of 27° with the ground. How high is the kite? How far
 
 You can work this out on paper first and then try and write a Processing sketch to visualise and solve the problem
 
+Also! You can use the processing functions [degrees()](https://processing.org/reference/degrees_.html) and [radians()](https://processing.org/reference/radians_.html) to convert between degrees and radians. Look th
+
 ### Part 2
 
 Try and draw this using ONE for loop:
