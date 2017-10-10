@@ -56,6 +56,7 @@ You can work this out on paper first and then try and write a Processing sketch 
 ### Part 2
 
 Try and draw this using ONE for loop:
+
 ![Sketch](images/p27.png)
 
 # Week 4 - Loops
