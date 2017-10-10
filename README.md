@@ -37,6 +37,27 @@ Some assignments from previous years:
 
 [![YouTube](http://img.youtube.com/vi/cW8s5i9dmqA/0.jpg)](https://www.youtube.com/watch?v=cW8s5i9dmqA)
 
+# Week 4 - More Loops
+- [The solution to the lab from last week](processing/loopsLab)
+
+## Lab
+### Learning outcomes
+- Practice trigonometry
+- Practice writing loops and using variables 
+
+### Part 1
+Here is a trigonometry problem for you:
+
+A person flying a kite has released 176m of string. 
+The string makes an angle of 27° with the ground. How high is the kite? How far away is the kite horizontally?
+
+You can work this out on paper first and then try and write a Processing sketch to visualise and solve the problem
+
+### Part 2
+
+Try and draw this using ONE for loop:
+![Sketch](images/p27.png)
+
 # Week 4 - Loops
 ![Sketch](images/p26.png)
 
