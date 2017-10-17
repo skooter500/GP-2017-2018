@@ -70,6 +70,8 @@ Try and draw this using ONE for loop:
 
 ![Sketch](images/p27.png)
 
+- [Solution](processing/GridInOneLoop)
+
 # Week 4 - Loops
 ![Sketch](images/p26.png)
 
