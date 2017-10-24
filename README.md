@@ -21,20 +21,163 @@ Resources
 
 * Email: bryan.duggan@dit.ie
 * Twitter: [@skooter500](http://twitter.com/skooter500)
-* Slack: [gp-2016-2017.slack.com](https://gp-2016-2017.slack.com)
 
 ## Assignments
 
 - 22 November 2017 Lab Test 20%
-- 12 December 2017 Assignment 1 submission 20%
+- 4 December 2017 Assignment 1 submission 20%
 - Assignment 2 - 30%
 - End of Year lab test - 30%
+
+[Assignment rubric & description](assignments.md)
 
 Some assignments from previous years:
 
 [![YouTube](http://img.youtube.com/vi/TY6Wv9lr72A/0.jpg)](https://www.youtube.com/watch?v=TY6Wv9lr72A)
 
 [![YouTube](http://img.youtube.com/vi/cW8s5i9dmqA/0.jpg)](https://www.youtube.com/watch?v=cW8s5i9dmqA)
+
+# Week 6 - No class because of the storm
+
+# Lab
+## Learning Outcomes
+- Test your knowledge by trying a typical lab test
+- Practice using loops, variables and the if statement
+
+Here is a [link to the lab test from 2015](https://github.com/skooter500/dt508_2015_labtest1) you can try and solve it today
+
+# Week 5 - More Loops
+- [The solution to the lab from last week](processing/loopsLab)
+
+## Lab
+### Learning outcomes
+- Practice trigonometry
+- Practice writing loops and using variables 
+
+### Part 1
+Here is a trigonometry problem for you:
+
+A person flying a kite has released 176m of string. 
+The string makes an angle of 27° with the ground. How high is the kite? How far away is the kite horizontally?
+
+You can work this out on paper first and then try and write a Processing sketch to visualise and solve the problem
+
+Also! You can use the processing functions [degrees()](https://processing.org/reference/degrees_.html) and [radians()](https://processing.org/reference/radians_.html) to convert between degrees and radians.
+
+### Part 2
+
+Try and draw this using ONE for loop:
+
+![Sketch](images/p27.png)
+
+- [Solution](processing/GridInOneLoop)
+
+# Week 4 - Loops
+![Sketch](images/p26.png)
+
+```Java
+void setup()
+{
+  size(500, 500);
+  cx = width / 2;
+  cy = height / 2;
+}
+
+int cx, cy;
+
+void draw()
+{
+  background(0);
+  stroke(255);
+  for(int x = 0 ; x <= width ; x += 20)
+  {
+    line(x, height, cx, cy);
+  }
+  
+  int y = cy;
+  int gap = 1;
+  while(y <= height)
+  {
+    line(0, y, width, y);
+    y += gap;
+    gap += 2;
+  }
+}
+```
+
+- [Lots of examples of loops](processing/lotsaloops)
+- [Dividing a circle into equal segments sketch](processing/circles1)
+
+[![YouTube](http://img.youtube.com/vi/h4ApLHe8tbk/0.jpg)](https://www.youtube.com/watch?v=h4ApLHe8tbk)
+[![YouTube](http://img.youtube.com/vi/RtAPBvz6k0Y/0.jpg)](https://www.youtube.com/watch?v=RtAPBvz6k0Y)
+
+## Lab
+### Learning outcomes
+- Practice generating lots of different shapes with loops in processing
+- Be creative and make something beautiful in code
+
+Try and write some processing code to draw the following shapes. Use variables and loops in your solutions!
+
+Its best to spend some time thinking about the variables and how they are changing before writing code:
+
+These require ONE loop:
+
+![Sketch](images/p21.png)
+
+This shape draws lines from the sides that all meet in the middle. This can be done using one loop, but is better with two:
+
+![Sketch](images/p19.png)
+
+This sketch always draws 10 equally sized circles across the screen. This should work no matter what you set the screen size to. You should also declare a variable to hold the number of circles to draw so that if you change this number, the sketch should still work:
+
+![Sketch](images/p18.png)
+
+This sketch places circles around the outside of a bigger circle to make a flower pattern. Once you figure this out, you can modify it to do something cool with colours:
+
+![Sketch](images/p20.png)
+
+This sketch prints the numbers of the clock around in a circle:
+
+![Sketch](images/p22.png)
+
+Finally! This sketch requires you to put one loop inside another and also use a boolean variable, though there are other ways to do this:
+
+![Sketch](images/p23.png)
+
+This is what it looks like when all the above code is in one sketch:
+
+![Sketch](images/p24.png)
+
+# Week 3 - Selection
+- [The quadrants sketch](processing/quadrants)
+- [Mouse inside a circle sketch](processing/circleDistance)
+
+## Videos
+[![YouTube](http://img.youtube.com/vi/mVq7Ms01RjA/0.jpg)](https://www.youtube.com/watch?v=mVq7Ms01RjA)
+
+[![YouTube](http://img.youtube.com/vi/wsI6N9hfW7E/0.jpg)](https://www.youtube.com/watch?v=wsI6N9hfW7E)
+
+[![YouTube](http://img.youtube.com/vi/YIKRXl3wH8Y/0.jpg)](https://www.youtube.com/watch?v=YIKRXl3wH8Y)
+
+## Lab
+
+Part 1
+
+- [Download and unzip the starter project for today's lab](https://github.com/skooter500/GP-2017-2018/blob/master/downloads/rick_n_morty_starter.zip?raw=true) 
+- Open the sketch and you will see that it displays a picture from Rick and Morty
+- The aim of the lab today is to modify the sketch so that it displays a button in the center of the screen
+- When the button is clicked, it should change colour and play the sound file. Here is what the finsihed sketch should look like:
+
+[![YouTube](http://img.youtube.com/vi/BR1p2Dl6ELE/0.jpg)](https://www.youtube.com/watch?v=BR1p2Dl6ELE)
+
+- To do this you will need to declare some new varialbes and use the if statement
+
+Part 2
+
+Try and make this sketch that draws a face that starts in the center of the screen and moves to the edge of the screen and then follows around the outside of the screen
+
+[![YouTube](http://img.youtube.com/vi/lA-3AROmMiE/0.jpg)](https://www.youtube.com/watch?v=lA-3AROmMiE)
+
 
 # Week 2 - Variables
 - [Variables example](processing/variables)
