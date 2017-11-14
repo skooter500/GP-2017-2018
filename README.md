@@ -37,6 +37,62 @@ Some assignments from previous years:
 
 [![YouTube](http://img.youtube.com/vi/cW8s5i9dmqA/0.jpg)](https://www.youtube.com/watch?v=cW8s5i9dmqA)
 
+# Week 10 - The Game of Life
+- [Incomplete Game of Life code for the lab today](processing/life1)
+
+- Stephen Hawkings on the Game of Life:
+
+[![YouTube](http://img.youtube.com/vi/CgOcEZinQ2I/0.jpg)](https://www.youtube.com/watch?v=CgOcEZinQ2I)
+
+- John Conway on the Game of Life:
+
+[![YouTube](http://img.youtube.com/vi/C2vgICfQawE/0.jpg)](https://www.youtube.com/watch?v=C2vgICfQawE)
+
+- Epic Conway's Game of Life:
+
+[![YouTube](http://img.youtube.com/vi/FdMzngWchDk/0.jpg)](https://www.youtube.com/watch?v=FdMzngWchDk)
+
+- And finally, Alan Watts
+
+[![YouTube](http://img.youtube.com/vi/wU0PYcCsL6o/0.jpg)](https://www.youtube.com/watch?v=wU0PYcCsL6o)
+
+- [Conway's Game of Life on Wikipedia](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)
+- [The Game of Life Wiki](http://www.conwaylife.com/wiki/Main_Page)
+
+## Lab
+### Learning Outcomes
+- Do some work on the Game of Life
+- Practice iterating over a 2D array
+
+Try andget the following working:
+
+- Complete the function countLiveCellsAround. You should call this function for some cells on the board. Do a manual count and verify that the function works correctly
+- When you press the c key, the board should clear. In otherwords, you should set every element in th 2D array to be false. You can write a function called clearBoard to do this.
+- When you press the r key, you should randomise the board again.
+- The method ```void mousePressed()``` gets called in your sketch whenever the mouse is pressed. The method ```mouseDragged``` gets called whenever you hold the mouse down and move it over your sketch. You can get the mouse x and y coordinates by using the built in variables ```mouseX``` and ```mouseY```. You can use these methods to implement mouse drawing. To do this you need to calculate which row and column in the 2D array the mouse is over and then set this cell to be true.
+
+There some interesting starting patterns you can program also. You could write code so that when you press a number key it creates the starting pattern at the mouse x and y. I used the mouse x and y to be the top left of the shape.
+
+| Pattern | Description |
+|---------|-------------|
+|![Sketch](images/p13.png) | Gosper Gun |
+|![Sketch](images/p14.png) | Lightweight spaceship |
+|![Sketch](images/p15.png) | Tumbler |
+|![Sketch](images/p16.png) | Glider |
+|![Sketch](images/p17.png) | I'm not sure what this is called, but it makes amazing patterns |
+
+Here is a video of what my sketch looks like:
+
+[![YouTube](http://img.youtube.com/vi/72X38iT74As/0.jpg)](https://www.youtube.com/watch?v=72X38iT74As)
+
+If you want a challenge, you ccan try and complete the Game of Life.
+
+# Week 9 - Arrays
+- Arrays
+
+# Week 8
+- Review Week & bank holiday
+
 # Week 7
 ## Lecture
 - [Bugzap](processing/BugZap1)
