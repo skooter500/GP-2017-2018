@@ -1,8 +1,10 @@
+import java.io.*;
+
 void setup()
 {
   size(500, 500);
   cellSize = width / (float) size;
-  randomise();
+  randomise();  
 }
 
 int countLiveCellsAround(int row, int col)
@@ -76,18 +78,59 @@ void randomise()
   }
 }
 
-int size = 50;
+int size = 100;
 boolean[][] current = new boolean[size][size];
 boolean[][] next = new boolean[size][size];
 float cellSize;
 
+
+
 void update()
 {
-  
+  for(int row = 0 ; row < size ; row ++)
+  {
+    for(int col = 0 ; col < size ; col ++)
+    {
+      int count = countLiveCellsAround(row, col);
+      if (current[row][col])
+      {
+        if (count == 2 || count == 3)
+        {
+          next[row][col] = true;
+        }
+        else
+        {
+          next[row][col] = false;
+        }
+      }
+      else
+      {
+        if (count == 3)
+        {
+          next[row][col] = true;
+        }
+        else
+        {
+          next[row][col] = false;
+        }
+      }
+    }
+  }
   boolean[][] temp;
   temp = current;
   current = next;
   next = temp;  
+}
+
+void clear()
+{
+  for(int row = 0 ; row < size ; row ++)
+  {
+    for(int col = 0 ; col < size ; col ++)
+    {
+      current[row][col] = false;
+    }
+  }
 }
 
 void draw()
@@ -95,4 +138,17 @@ void draw()
   println(countLiveCellsAround(49,49));
   background(0);
   render();
+  update();
+  
+  if (keyPressed)
+  {
+    if (key == ' ')
+    {
+      clear();
+    }
+    if (key == 'r')
+    {
+      randomise();
+    }
+  }
 }
