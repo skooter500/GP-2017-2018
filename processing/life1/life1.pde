@@ -22,6 +22,27 @@ int countLiveCellsAround(int row, int col)
     count ++;
   }
   
+  if (col > 0 && current[row][col - 1])
+  {
+    count ++;
+  }
+  if (col < size - 1 && current[row][col + 1])
+  {
+    count ++;    
+  }
+  if (col > 0 && row < size - 1 && current[row + 1][col -1])
+  {
+    count ++;
+  }
+  if (row < size - 1 && current[row + 1][col])
+  {
+    count ++;
+  }
+  if (col < size - 1 && row < size - 1 && current[row + 1][col + 1])
+  {
+    count ++;
+  }
+  
   return count;
 }
 
@@ -60,8 +81,18 @@ boolean[][] current = new boolean[size][size];
 boolean[][] next = new boolean[size][size];
 float cellSize;
 
+void update()
+{
+  
+  boolean[][] temp;
+  temp = current;
+  current = next;
+  next = temp;  
+}
+
 void draw()
 {
+  println(countLiveCellsAround(49,49));
   background(0);
   render();
 }
