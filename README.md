@@ -41,8 +41,6 @@ Some assignments from previous years:
 - [Game of life code](processing/life1)
 - [A more complex implementation that uses colours](https://github.com/skooter500/life)
 
-## Lab
-- [Lab Test 1](https://github.com/skooter500/GP-LabTest1-2017)
 
 # Week 10 - The Game of Life
 - [Incomplete Game of Life code for the lab today](processing/life1)
