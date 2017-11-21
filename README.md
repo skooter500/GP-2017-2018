@@ -37,6 +37,13 @@ Some assignments from previous years:
 
 [![YouTube](http://img.youtube.com/vi/cW8s5i9dmqA/0.jpg)](https://www.youtube.com/watch?v=cW8s5i9dmqA)
 
+# Week 11 - Completing the Game of Life
+- [Game of life code](processing/life1)
+- [A more complex implementation that uses colours](https://github.com/skooter500/life)
+
+## Lab
+- [Lab Test 1](https://github.com/skooter500/GP-LabTest1-2017)
+
 # Week 10 - The Game of Life
 - [Incomplete Game of Life code for the lab today](processing/life1)
 
@@ -85,10 +92,11 @@ Here is a video of what my sketch looks like:
 
 [![YouTube](http://img.youtube.com/vi/72X38iT74As/0.jpg)](https://www.youtube.com/watch?v=72X38iT74As)
 
-If you want a challenge, you ccan try and complete the Game of Life.
+If you want a challenge, you can try and complete the Game of Life.
 
 # Week 9 - Arrays
-- Arrays
+- [Arrays reference](https://www.processing.org/reference/Array.html)
+- [Arrays example program](processing/arrays)
 
 # Week 8
 - Review Week & bank holiday
