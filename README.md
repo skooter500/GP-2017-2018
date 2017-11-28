@@ -37,6 +37,10 @@ Some assignments from previous years:
 
 [![YouTube](http://img.youtube.com/vi/cW8s5i9dmqA/0.jpg)](https://www.youtube.com/watch?v=cW8s5i9dmqA)
 
+# Week 11 - No class
+- [Solution to the lab test](https://github.com/skooter500/GP_Lab_Test_1_2017)
+
+
 # Week 11 - Completing the Game of Life
 - [Game of life code](processing/life1)
 - [A more complex implementation that uses colours](https://github.com/skooter500/life)
