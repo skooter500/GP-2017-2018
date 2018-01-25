@@ -54,11 +54,11 @@ Here is a little game you can make today:
 
 What is happening:
 
-- The little whits square is controlled by the player using the W and S keys. The player move outside the bounds of the screen
+- The little white square is controlled by the player using the W and S keys. The player move outside the bounds of the screen
 - The player starts with 5 lives
 - The coloured squares appear from the right and move left. When they hit the left side of the screen, they will reappear with a different random y value and colour at the right side of the screen
-- If the player hits any of the squares, the player looses a life
-- After 5 lives, the game is over 
+- If the player hits any of the squares, the player looses a life and the square reappears on the right side of the screen with a new random y value and random colour
+- After the player looses all 5 lives, the game is over 
 
 
 # Week 11 - No class
