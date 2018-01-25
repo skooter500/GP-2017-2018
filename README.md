@@ -37,6 +37,30 @@ Some assignments from previous years:
 
 [![YouTube](http://img.youtube.com/vi/cW8s5i9dmqA/0.jpg)](https://www.youtube.com/watch?v=cW8s5i9dmqA)
 
+# Semester 2
+
+## Week 1 - Arrays revision
+- [Snow example with arrays](processing/snow)
+- [The rainfall arrays example](processing/arrays)
+
+# Lab
+## Learning outcomes
+- Practice using arrays
+- Implement a simple collision detection algorithm
+
+Here is a little game you can make today:
+
+[![YouTube](http://img.youtube.com/vi/pDUJC22Zjds/0.jpg)](https://www.youtube.com/watch?v=pDUJC22Zjds)
+
+What is happening:
+
+- The little whits square is controlled by the player using the W and S keys. The player move outside the bounds of the screen
+- The player starts with 5 lives
+- The coloured squares appear from the right and move left. When they hit the left side of the screen, they will reappear with a different random y value and colour at the right side of the screen
+- If the player hits any of the squares, the player looses a life
+- After 5 lives, the game is over 
+
+
 # Week 11 - No class
 - [Solution to the lab test](https://github.com/skooter500/GP_Lab_Test_1_2017)
 
