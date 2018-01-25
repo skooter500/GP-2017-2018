@@ -60,6 +60,41 @@ What is happening:
 - If the player hits any of the squares, the player looses a life and the square reappears on the right side of the screen with a new random y value and random colour
 - After the player looses all 5 lives, the game is over 
 
+You can add this code to your sketch to implement better keyboard handling:
+
+```
+boolean[] keys = new boolean[1024];
+
+boolean checkKey(int k)
+{
+  if (keys.length >= k) 
+  {
+    return keys[k] || keys[Character.toUpperCase(k)];  
+  }
+  return false;
+}
+
+void keyPressed()
+{ 
+  keys[keyCode] = true;
+}
+ 
+void keyReleased()
+{
+  keys[keyCode] = false; 
+}
+```
+
+To check for a key press, use this code:
+
+```
+if (checkKey('w'))
+{
+	// do something
+}
+```
+
+
 
 # Week 11 - No class
 - [Solution to the lab test](https://github.com/skooter500/GP_Lab_Test_1_2017)
