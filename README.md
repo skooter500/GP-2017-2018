@@ -62,7 +62,7 @@ What is happening:
 
 You can add this code to your sketch to implement better keyboard handling:
 
-```
+```Java
 boolean[] keys = new boolean[1024];
 
 boolean checkKey(int k)
@@ -87,7 +87,7 @@ void keyReleased()
 
 To check for a key press, use this code:
 
-```
+```Java
 if (checkKey('w'))
 {
 	// do something
