@@ -39,6 +39,17 @@ Some assignments from previous years:
 
 # Semester 2
 
+## Week 3 - lerp & map functions
+- [lerp](https://processing.org/reference/lerp_.html)
+- [map](https://processing.org/reference/map_.html)
+- [Code we wrote in the class to use lerp and map in the audio visualiser](processing/audio1)
+
+## Lab
+
+I tried to make a circular spectrum visualiser as a task for today's lab, but unfortunately I couldnt get it to work very well, so instead, how about taking the [little game we made 2 weeks ago](processing/Squares) and combining it with [the visualiser we made in the class this week](processing/audio1). 
+
+You can make the height of the player in the game controllable by whistelling and make the aim of the game to collect or avoid the array of blocks comming in from the right side of the screen. 
+
 ## Week 2 - Digital Audio
 - [Minim Library Reference](http://code.compartmental.net/tools/minim/)
 - [The digital audio sketch we wrote in the class](processing/audio)
