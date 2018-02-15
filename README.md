@@ -37,6 +37,105 @@ Some assignments from previous years:
 
 [![YouTube](http://img.youtube.com/vi/cW8s5i9dmqA/0.jpg)](https://www.youtube.com/watch?v=cW8s5i9dmqA)
 
+# Semester 2
+
+## Week 3 - lerp & map functions
+- [lerp](https://processing.org/reference/lerp_.html)
+- [map](https://processing.org/reference/map_.html)
+- [Code we wrote in the class to use lerp and map in the audio visualiser](processing/audio1)
+
+## Lab
+
+I tried to make a circular spectrum visualiser as a task for today's lab, but unfortunately I couldnt get it to work very well, so instead, how about taking the [little game we made 2 weeks ago](processing/Squares) and combining it with [the visualiser we made in the class this week](processing/audio1). 
+
+You can make the height of the player in the game controllable by whistelling and make the aim of the game to collect or avoid the array of blocks comming in from the right side of the screen. 
+
+## Week 2 - Digital Audio
+- [Minim Library Reference](http://code.compartmental.net/tools/minim/)
+- [The digital audio sketch we wrote in the class](processing/audio)
+
+## Lab
+
+Use the sketch we wrote in the class yesterday as starter code for todays class. Read through the code and make sure you understand it. You might want to check out the minim documentation to see all the amazing things that you can do with the minim library.
+
+You can get useful information from the audio signal by calculating the maximum and the average of the signal and the frequency spectrum (the fft). 
+
+For example, by calculating the average of the signal, you can get an indication of the average loudness of the audio and then detect silence, claps etc by checking to see if this value is over a certain threshold. Its best to print this number out and figure out what the threshold should be by trial and error.
+
+Dont forget, the elements in the signal array ```ai.left.get(i)``` can be positive or negative, so to calculate the average, you should use ```abs``` to get the absolute value like this:
+
+```Java
+average += abs(ai.left.get(i));
+```
+By calculating the maximum value of the *spectrum* (the fft array), you can figure out the pitch or frequency of the audio. It is often useful to know the index where the maximum value occured rather than the actual value. To convert an index into a frequency, use:
+
+```Java
+fft.indexToFreq(maxIndex)
+```
+
+Try and make this whistelling controlled ellipse by using the index where the maximum value of the spectrum is to control the y value and the colour of the circle in the sketch:
+
+[![YouTube](http://img.youtube.com/vi/4p0WB5qkzSo/0.jpg)](https://www.youtube.com/watch?v=4p0WB5qkzSo)
+
+## Week 1 - Arrays revision
+- [Snow example with arrays](processing/snow)
+- [The rainfall arrays example](processing/arrays)
+
+# Lab
+## Learning outcomes
+- Practice using arrays
+- Implement a simple collision detection algorithm
+
+Here is a little game you can make today:
+
+[![YouTube](http://img.youtube.com/vi/pDUJC22Zjds/0.jpg)](https://www.youtube.com/watch?v=pDUJC22Zjds)
+
+- [Solution](processing/Squares)
+
+What is happening:
+
+- The little white square is controlled by the player using the W and S keys. The player move outside the bounds of the screen
+- The player starts with 5 lives
+- The coloured squares appear from the right and move left. When they hit the left side of the screen, they will reappear with a different random y value and colour at the right side of the screen
+- If the player hits any of the squares, the player looses a life and the square reappears on the right side of the screen with a new random y value and random colour
+- After the player looses all 5 lives, the game is over 
+
+You can add this code to your sketch to implement better keyboard handling:
+
+```Java
+boolean[] keys = new boolean[1024];
+
+boolean checkKey(int k)
+{
+  if (keys.length >= k) 
+  {
+    return keys[k] || keys[Character.toUpperCase(k)];  
+  }
+  return false;
+}
+
+void keyPressed()
+{ 
+  keys[keyCode] = true;
+}
+ 
+void keyReleased()
+{
+  keys[keyCode] = false; 
+}
+```
+
+To check for a key press, use this code:
+
+```Java
+if (checkKey('w'))
+{
+	// do something
+}
+```
+
+
+
 # Week 11 - No class
 - [Solution to the lab test](https://github.com/skooter500/GP_Lab_Test_1_2017)
 
