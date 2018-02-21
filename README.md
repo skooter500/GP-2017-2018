@@ -39,6 +39,9 @@ Some assignments from previous years:
 
 # Semester 2
 
+## Week 5
+- [Solution to last weeks lab](processing/classes1)
+
 ## Week 4 - Classes and transforms
 - [Classes](https://processing.org/reference/class.html)
 - [pushMatrix & popMatrix](https://processing.org/reference/pushMatrix_.html)
