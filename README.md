@@ -47,6 +47,7 @@ Some assignments from previous years:
 ## Lab
 ### Learning Outcomes
 - Use an ArrayList
+- Make a class
 
 In today's lab we will make it possible for the Ship to shoot bullets
 
