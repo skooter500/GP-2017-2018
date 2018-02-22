@@ -48,6 +48,8 @@ Some assignments from previous years:
 ### Learning Outcomes
 - Use an ArrayList
 
+In today's lab we will make it possible for the Ship to shoot bullets
+
 - Start with the code we wrote in the class
 - Make a class called Bullet that just draws a line like the bullets in this video:
 
