@@ -39,9 +39,10 @@ Some assignments from previous years:
 
 # Semester 2
 
-## Week 5
+## Week 5 - atan2 and using an ArrayList
 - [Solution to last weeks lab](processing/classes1)
 - [Code we wrote in the class](processing/classes2)
+- [atan2](https://processing.org/reference/atan2_.html)
 - [ArrayLists](https://processing.org/reference/ArrayList.html)
 
 ## Lab
