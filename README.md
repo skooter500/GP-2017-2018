@@ -41,6 +41,31 @@ Some assignments from previous years:
 
 ## Week 5
 - [Solution to last weeks lab](processing/classes1)
+- [Code we wrote in the class](processing/classes2)
+- [ArrayLists](https://processing.org/reference/ArrayList.html)
+
+## Lab
+### Learning Outcomes
+- Use an ArrayList
+
+- Start with the code we wrote in the class
+- Make a class called Bullet that just draws a line like the bullets in this video:
+
+  [![YouTube](http://img.youtube.com/vi/6qzw__ENHlA/0.jpg)](https://www.youtube.com/watch?v=6qzw__ENHlA)
+  
+- The Bullet class should have fields for x and y, fx and fy, speed and theta. 
+- Make a constructor that takes x, y and theta
+- Write a render method on the Bullet class. Render should use pushMatrix, transform, rotate and popMatrix
+- Write an update method on the Bullet class that moves the bullet in the direction theta
+- Create an ArrayList in the sketch to hold the bullet objects called bullets
+- In the sketch draw function, iterate over the ArrayList of Bullet's using a for loop. (Not a foreach loop)
+- Write code in the Ship class to create new Bullet objects when the player presses the SPACE key. Add the new Bullet objects to the bullets ArrayList
+- Give the bullet starting x and y and theta based on the ship x, y and theta. See if you can figure out how to calculate the starting x and y of the bullet so that the bullets spawn *in front* of the ship, regardless of which direction the ship is pointing
+- Write code in the Bullet update method to remove bullets from the bullets ArrayList when the bullet goes outside the bounds of the screen
+
+Advanced!
+
+Make asteroids drawn using coloured ellipses that the ship can shoot
 
 ## Week 4 - Classes and transforms
 - [Classes](https://processing.org/reference/class.html)

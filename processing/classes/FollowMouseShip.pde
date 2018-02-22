@@ -7,14 +7,12 @@ class FollowMouseShip
   float speed = 10;
   float theta = 0;
   color c;
-  
   // This method is called a constructor
   // Not return type and same name as the class
   FollowMouseShip()
   {
-    x = random(0, width);
-    y = random(0, height);
-    c = color(random(0, 255), 255, 255);
+    x = width / 2;
+    y = height /2;
   }
   
   // Paramaterised constructor
@@ -32,6 +30,7 @@ class FollowMouseShip
     translate(x, y);
     rotate(theta);
     stroke(c);
+    
     float halfS = size /2; 
     line(- halfS, halfS, 0, - halfS);
     line(0, - halfS, halfS, halfS);
@@ -42,17 +41,10 @@ class FollowMouseShip
   
   void update()
   {
-    theta = atan2(mouseY - y, mouseX-x) + HALF_PI;
+    theta += 0.01f;
     fx = sin(theta);
-    fy = - cos(theta);
+    fy = -cos(theta);
     x += fx;
     y += fy;
-    
-    if (dist(mouseX, mouseY, x, y) < 5)
-    {
-       x = random(0, width);
-    y = random(0, height);
-    c = color(random(0, 255), 255, 255);
-    }
   }
 }

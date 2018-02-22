@@ -1,7 +1,7 @@
 void setup()
 {
   colorMode(HSB);
-  size(1920, 1080, P3D);
+  size(1920, 1080);
   s = new Ship();
   
   add100Ships();
