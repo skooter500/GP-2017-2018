@@ -61,6 +61,13 @@ class Ship
         x -= fx;
         y -= fy;
       }
+      
+      if (key == ' ')
+      {
+        Bullet b = new Bullet(x, y, theta);
+        bullets.add(b);
+      }
+      
     }
   }
 }

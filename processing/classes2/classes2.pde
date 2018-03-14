@@ -20,7 +20,7 @@ void add100Ships()
 Ship s;
 
 ArrayList<FollowMouseShip> fms = new ArrayList<FollowMouseShip>();
-
+ArrayList<Bullet> bullets = new ArrayList<Bullet>();
 
 void draw()
 {
@@ -28,15 +28,22 @@ void draw()
   stroke(255);
   s.render();
   s.update();
+  for(Bullet b:bullets)
+  {
+    b.render();
+    b.update();
+  }
+  
+  /*
   for(int i = 0 ; i < fms.size() ; i ++)
   {
     fms.get(i).update();
     fms.get(i).render();
   }
-  
+  */
   if (keyPressed && key == ' ')
   {
-    add100Ships();
+    //add100Ships();
   }
   
 } 

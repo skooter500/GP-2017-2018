@@ -70,11 +70,11 @@ void draw()
    
    yy += random(-10, 10);
    fill(200, 255, 255);
-   ellipse(250, yy, 50, 50);
+   //ellipse(250, yy, 50, 50);
    
    fill(100, 255, 255);
    yyy = lerp(yyy, yy, 0.1f);
-   ellipse(350, yyy, 50, 50);
+   //ellipse(350, yyy, 50, 50);
 }
 
 float yy = 250;
