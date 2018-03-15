@@ -39,6 +39,44 @@ Some assignments from previous years:
 
 # Semester 2
 
+## Week 8 - PVectors
+- [PVectors](https://processing.org/tutorials/pvector/)
+
+  [![YouTube](http://img.youtube.com/vi/mWJkvxQXIa8/0.jpg)](https://www.youtube.com/watch?v=mWJkvxQXIa8)
+
+  [![YouTube](http://img.youtube.com/vi/7nTLzLf7jUg/0.jpg)](https://www.youtube.com/watch?v=7nTLzLf7jUg)
+
+  [![YouTube](http://img.youtube.com/vi/s6b1_3bNCxk/0.jpg)](https://www.youtube.com/watch?v=s6b1_3bNCxk)
+
+
+## Lab
+
+Read the article above and watch the three videos above all about vector maths and the PVector class. Check out [the code we wrote in the class]() and in particular, have a look at the code: 
+
+```Java
+PVector spawnPoint = PVector.add(pos, PVector.mult(forward, 100));
+```
+
+If you want to try using PVectors, you can modify the Bullet code we wrote to use PVectors
+
+This stuff is really useful when we start programming in Unity next week!
+
+If you want to try some git stuff, you can start the terminal program on the Mac or the Bash shell on Windows and type:
+
+```
+git clone https://github.com/skooter500/GP-2017-2018
+```
+
+To clone the git repository for this course. You can also use gitkracken. Here is a good tutorial to get you started:
+
+[![YouTube](http://img.youtube.com/vi/ZKkMwTeAij4/0.jpg)](https://www.youtube.com/watch?v=ZKkMwTeAij4)
+
+
+
+## Week 7 - Review week
+
+## Week 6 - No class doe to snow
+
 ## Week 5 - atan2 and using an ArrayList
 - [Solution to last weeks lab](processing/classes1)
 - [Code we wrote in the class](processing/classes2)
