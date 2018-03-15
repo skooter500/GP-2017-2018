@@ -51,7 +51,7 @@ Some assignments from previous years:
 
 ## Lab
 
-Read the article above and watch the three videos above all about vector maths and the PVector class. Check out [the code we wrote in the class]() and in particular, have a look at the code: 
+Read the article above and watch the three videos above all about vector maths and the PVector class. Check out [the code we wrote in the class](processing/classes2) and in particular, have a look at the code: 
 
 ```Java
 PVector spawnPoint = PVector.add(pos, PVector.mult(forward, 100));
