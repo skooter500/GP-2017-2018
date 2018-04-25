@@ -26,8 +26,8 @@ Resources
 
 - 22 November 2017 Lab Test 20%
 - 4 December 2017 Assignment 1 submission 20%
-- Assignment 2 - 30%
-- End of Year lab test - 30%
+- Assignment 2 - 30% - Due Thursday 3rd May 
+- End of Year lab test - 30% - Thursday 10th May 
 
 [Assignment rubric & description](assignments.md)
 
