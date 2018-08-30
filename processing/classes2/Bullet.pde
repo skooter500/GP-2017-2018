@@ -1,15 +1,10 @@
-class Bullet
+class Bullet extends GameObject
 {
-  float x, y;
-  float fx, fy;
-  float theta;
   float speed;
   
   Bullet(float x, float y, float theta)
   {
-    this.x = x;
-    this.y = y;
-    this.theta = theta;
+    super(x, y, theta);
     speed = 20;
   }
   
@@ -17,7 +12,7 @@ class Bullet
   {
     stroke(100, 255, 255);
     pushMatrix();
-    translate(x, y);
+    translate(pos.x, pos.y);
     rotate(theta);
     line(0, -5, 0, 5);
     
@@ -26,12 +21,11 @@ class Bullet
   
   void update()
   {
-    fx = sin(theta);
-    fy = - cos(theta);
+    forward.x = sin(theta);
+    forward.y = - cos(theta);
     
-    x += fx * speed;
-    y += fy * speed;
-    
+    // pos += forward * speed;
+    pos.add(PVector.mult(forward, speed));
     
   }
 }

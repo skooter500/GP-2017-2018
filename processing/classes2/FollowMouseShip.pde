@@ -1,27 +1,22 @@
-class FollowMouseShip
+class FollowMouseShip extends GameObject
 {
   // Fields!! They are part of the ship
-  float x, y;
-  float fx, fy;
   float size = 50;
   float speed = 10;
-  float theta = 0;
   color c;
   
   // This method is called a constructor
   // Not return type and same name as the class
   FollowMouseShip()
   {
-    x = random(0, width);
-    y = random(0, height);
+    super(random(0, width), random(0, height), 0.0f);
     c = color(random(0, 255), 255, 255);
   }
   
   // Paramaterised constructor
   FollowMouseShip(float x, float y)
   {
-    this.x = x;
-    this.y = y;
+    super(x, y, 0);
     c = color(random(0, 255), 255, 255);
   }
   
@@ -29,7 +24,7 @@ class FollowMouseShip
   void render()
   {
     pushMatrix();
-    translate(x, y);
+    translate(pos.x, pos.y);
     rotate(theta);
     stroke(c);
     float halfS = size /2; 
@@ -42,16 +37,15 @@ class FollowMouseShip
   
   void update()
   {
-    theta = atan2(mouseY - y, mouseX-x) + HALF_PI;
-    fx = sin(theta);
-    fy = - cos(theta);
-    x += fx;
-    y += fy;
+    theta = atan2(mouseY - pos.y, mouseX-pos.x) + HALF_PI;
+    forward.x = sin(theta);
+    forward.y = - cos(theta);
+    pos.add(forward);
     
-    if (dist(mouseX, mouseY, x, y) < 5)
+    if (dist(mouseX, mouseY, pos.x, pos.y) < 5)
     {
-       x = random(0, width);
-    y = random(0, height);
+       pos.x = random(0, width);
+      pos.y = random(0, height);
     c = color(random(0, 255), 255, 255);
     }
   }

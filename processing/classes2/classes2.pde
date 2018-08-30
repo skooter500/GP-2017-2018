@@ -2,45 +2,40 @@ void setup()
 {
   colorMode(HSB);
   size(1920, 1080);
-  s = new Ship();
+  gameObjects.add(new Ship());
   
-  add100Ships();
-  
+  add100Ships();  
   strokeWeight(5);
+  // Example of polymorphism
+  GameObject go = new Ship();
+  go = new Bullet(10, 10, 0);
+  go = new FollowMouseShip();
+  
 }
+
 
 void add100Ships()
 {
   for(int i = 0 ; i < 100 ; i ++)
   {
-    fms.add(new FollowMouseShip(random(0, width), random(0, height)));
+    gameObjects.add(new FollowMouseShip(random(0, width), random(0, height)));
   }
 }
 
-Ship s;
-
-ArrayList<FollowMouseShip> fms = new ArrayList<FollowMouseShip>();
-ArrayList<Bullet> bullets = new ArrayList<Bullet>();
+ArrayList<GameObject> gameObjects = new ArrayList<GameObject>();
 
 void draw()
 {
   background(0);
   stroke(255);
-  s.render();
-  s.update();
-  for(Bullet b:bullets)
+  for(int i = 0 ; i < gameObjects.size() ; i ++)
   {
-    b.render();
-    b.update();
+    GameObject go = gameObjects.get(i);
+    go.render();
+    go.update();
   }
   
-  /*
-  for(int i = 0 ; i < fms.size() ; i ++)
-  {
-    fms.get(i).update();
-    fms.get(i).render();
-  }
-  */
+ 
   if (keyPressed && key == ' ')
   {
     //add100Ships();

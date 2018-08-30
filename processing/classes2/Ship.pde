@@ -1,32 +1,28 @@
-class Ship
+class Ship extends GameObject
 {
   // Fields!! They are part of the ship
-  float x, y;
-  float fx, fy;
   float size = 150;
   float speed = 10;
-  float theta = 0;
   
   // This method is called a constructor
   // Not return type and same name as the class
   Ship()
   {
-    x = width / 2;
-    y = height /2;
+    // Call the constructor in GameObject
+    super(width / 2, height / 2, 0);
   }
   
   // Paramaterised constructor
   Ship(float x, float y)
   {
-    this.x = x;
-    this.y = y;
+    super(x, y, 0);
   }
   
   // Method
   void render()
   {
     pushMatrix();
-    translate(x, y);
+    translate(pos.x, pos.y);
     rotate(theta);
     
     float halfS = size /2; 
@@ -39,8 +35,8 @@ class Ship
   
   void update()
   {
-    fx = sin(theta);
-    fy = - cos(theta);
+    forward.x = sin(theta);
+    forward.y = - cos(theta);
     if (keyPressed)
     {
       if (keyCode == LEFT)
@@ -53,19 +49,17 @@ class Ship
       }
       if (keyCode == UP)
       {
-        x += fx;
-        y += fy;
+        pos.add(forward);
       }
       if (keyCode == DOWN)
       {
-        x -= fx;
-        y -= fy;
+        pos.sub(forward);
       }
       
       if (key == ' ')
       {
-        Bullet b = new Bullet(x, y, theta);
-        bullets.add(b);
+        Bullet b = new Bullet(pos.x, pos.y, theta);
+        gameObjects.add(b);
       }
       
     }
